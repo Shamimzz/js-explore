@@ -55,4 +55,27 @@ document.getElementById("demo2").innerHTML = fruits;
 
 // const points = [40, 100, 1, 5, 25, 10];
 // const a = points.sort(function(a, b){return 0.5 - Math.random()});
-// console.log(a);
+// console.log(a)
+
+
+// const points = [40, 100, 1, 5, 25, 10];
+
+// for (let i = points.length -1; i > 0; i--) {
+//   let j = Math.floor(Math.random() * i)
+//   let k = points[i]
+//   points[i] = points[j]
+//   points[j] = k
+// }
+
+// console.log(first)
+
+
+
+// const numbers = [45, 4, 9, 16, 25];
+// const over18 = numbers.filter(myFunction);
+
+// function myFunction(value, index, array) {
+//   return value > 18;
+// }
+
+// console.log(myFunction());
