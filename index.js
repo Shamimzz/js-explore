@@ -28,9 +28,16 @@ document.getElementById("demo2").innerHTML = fruits;
 
 
 // 1. how to get random number between 1 to 6 in ludo Game. 
-const ludo = () => {
-   Math.floor(Math.random() * 6);
-}
-console.log(ludo);
+// const ludo = () => {
+//    Math.floor(Math.random() * 6);
+// }
+// console.log(ludo);
 
 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.sort());
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.reverse();
+console.log(fruits.sort());
+console.log(fruits.reverse());
