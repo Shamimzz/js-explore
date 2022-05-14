@@ -37,7 +37,12 @@ document.getElementById("demo2").innerHTML = fruits;
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // console.log(fruits.sort());
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// fruits.reverse();
-console.log(fruits.sort());
-console.log(fruits.reverse());
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.sort());
+// console.log(fruits.reverse());
+
+
+
+const points = [40, 100, 1, 5, 25, 10];
+const a = points.sort(function(a, b){return 0.5 - Math.random()});
+console.log(a);
