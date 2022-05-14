@@ -34,6 +34,9 @@ document.getElementById("demo2").innerHTML = fruits;
 // console.log(ludo);
 
 
+
+//------------------ SORT-------------------
+
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // console.log(fruits.sort());
 
@@ -42,7 +45,14 @@ document.getElementById("demo2").innerHTML = fruits;
 // console.log(fruits.reverse());
 
 
+// const points = [40, 100, 1, 5, 25, 10];
+// const a = points.sort(function(a, b){
+//    return b - a
+// });
+// console.log(a);
 
-const points = [40, 100, 1, 5, 25, 10];
-const a = points.sort(function(a, b){return 0.5 - Math.random()});
-console.log(a);
+
+
+// const points = [40, 100, 1, 5, 25, 10];
+// const a = points.sort(function(a, b){return 0.5 - Math.random()});
+// console.log(a);
