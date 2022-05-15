@@ -77,5 +77,16 @@ document.getElementById("demo2").innerHTML = fruits;
 // function myFunction(value, index, array) {
 //   return value > 18;
 // }
-
 // console.log(myFunction());
+
+
+// ----------------reduce Function-------------
+
+const numbers = [45, 4, 9, 16, 25];
+let total = numbers.reduce(myFunction, 100);
+
+function myFunction(total, value) {
+  return total + value;
+}
+
+console.log(total);
