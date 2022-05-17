@@ -108,10 +108,31 @@ document.getElementById("demo2").innerHTML = fruits;
 // }
 // console.log(sum);
 
-const numbers = [45, 4, 9, 16, 25];
-let sum = numbers.reduceRight(myFunction);
+// const numbers = [45, 4, 9, 16, 25];
+// let sum = numbers.reduceRight(myFunction);
 
-function myFunction(total, value, index, array) {
-  return total + value;
+// function myFunction(total, value, index, array) {
+//   return total + value;
+// }
+// console.log(sum)
+
+// function getRndInteger(min, max) {
+//   return Math.floor(Math.random() * (max - min) ) + min;
+// }
+// console.log(getRndInteger(100, 2));
+
+
+
+age = Number(age);
+
+if (isNaN(age)) {
+  voteable = "Input is not a number";
+ } else {
+  voteable = (age < 18) ? "Too young" : "Old enough";
 }
-console.log(sum)
+
+console.log(first);
+
+
+
+
