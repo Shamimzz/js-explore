@@ -123,16 +123,25 @@ document.getElementById("demo2").innerHTML = fruits;
 
 
 
-age = Number(age);
+// age = Number(age);
 
-if (isNaN(age)) {
-  voteable = "Input is not a number";
- } else {
-  voteable = (age < 18) ? "Too young" : "Old enough";
+// if (isNaN(age)) {
+//   voteable = "Input is not a number";
+//  } else {
+//   voteable = (age < 18) ? "Too young" : "Old enough";
+// }
+
+// console.log(first);
+
+
+switch (new Date().getDay()) {
+  default:
+    text = "Looking forward to the Weekend";
+    break;
+  case 6:
+    text = "Today is Saturday";
+    break;
+  case 0:
+    text = "Today is Sunday";
 }
-
-console.log(first);
-
-
-
 
