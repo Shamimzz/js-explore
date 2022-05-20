@@ -36,5 +36,9 @@
 // let str = "Please locate where 'locate' occurs!";
 // str.indexOf("locate", 15);
 
-let text = "The rain in SPAIN stays mainly in the plain";
-text.match(/ain/g);
+// let text = "The rain in SPAIN stays mainly in the plain";
+// console.log(text.match(/ain/g));
+
+let text = "Hello world, welcome to the universe.";
+text.includes("world", 12);
+console.log(text.includes("world", 12));
