@@ -39,6 +39,14 @@
 // let text = "The rain in SPAIN stays mainly in the plain";
 // console.log(text.match(/ain/g));
 
-let text = "Hello world, welcome to the universe.";
-text.includes("world", 12);
-console.log(text.includes("world", 12));
+// let text = "Hello world, welcome to the universe.";
+// text.includes("world", 12);
+// console.log(text.includes("world", 12));
+
+
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+const d = new Date();
+let month = months[d.getMonth()];
+
+console.log(month);
