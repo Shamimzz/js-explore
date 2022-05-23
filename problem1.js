@@ -44,9 +44,17 @@
 // console.log(text.includes("world", 12));
 
 
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// const d = new Date();
+// let month = months[d.getMonth()];
+// console.log(month);
 
-const d = new Date();
-let month = months[d.getMonth()];
+// console.log(Math.abs(-47.9));
 
-console.log(month);
+// console.log(Math.pow(8, 2));
+
+// console.log(Math.sin(90 * Math.PI / 180));
+
+// console.log(Math.min(0, 150, 30, 20, -8, -200));
+
+console.log(Math.max(0, 150, 30, 20, -8, -200))
