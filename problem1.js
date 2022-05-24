@@ -64,10 +64,10 @@
 // console.log(voteable);
 
 const person = {fname:"John", lname:"Doe", age:25};
-
 let text = "";
-for (let x in person) {
-  text += person[x];
+const a = () => {
+    for (let x in person){ 
+        text += person[x];
+    }
 }
-
-console.log(first);
+console.log(a);
