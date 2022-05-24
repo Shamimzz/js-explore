@@ -57,4 +57,17 @@
 
 // console.log(Math.min(0, 150, 30, 20, -8, -200));
 
-console.log(Math.max(0, 150, 30, 20, -8, -200))
+// console.log(Math.max(0, 150, 30, 20, -8, -200))
+
+// let age = 19;
+// let voteable = (age < 18) ? "Too young":"Old enough";
+// console.log(voteable);
+
+const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+}
+
+console.log(first);
