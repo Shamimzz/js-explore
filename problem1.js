@@ -87,9 +87,19 @@
 
 // Create a Set
 // List all Elements
-const letters = new Set(["a","b","c"]);
-let text = "";
-const a = letters.forEach (function(value) {
-  text += value;
-})  
-console.log(a);
+// const letters = new Set(["a","b","c"]);
+// let text = "";
+
+// const a = letters.forEach (function(value) {
+//   text += value;
+// })  
+// console.log(a);
+
+
+const b = () =>{
+  for (let i = 0; i < 10; i++) {
+    if (i === 3) { break; }
+    text += "The number is " + i + "<br>";
+  }
+}
+console.log(b);
