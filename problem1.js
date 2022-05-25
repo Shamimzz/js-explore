@@ -63,11 +63,33 @@
 // let voteable = (age < 18) ? "Too young":"Old enough";
 // console.log(voteable);
 
-const person = {fname:"John", lname:"Doe", age:25};
+// const person = {fname:"John", lname:"Doe", age:25};
+// let text = "";
+// const a = () => {
+//     for (let x in person){ 
+//         text += person[x];
+//     }
+// }
+// console.log(a);
+
+
+// const fruits = new Map([
+//     ["apples", 500],
+//     ["bananas", 300],
+//     ["oranges", 200]
+//   ]);
+  
+//   for (const x of fruits) {
+//     console.log(x)
+//   }
+
+
+
+// Create a Set
+// List all Elements
+const letters = new Set(["a","b","c"]);
 let text = "";
-const a = () => {
-    for (let x in person){ 
-        text += person[x];
-    }
-}
+const a = letters.forEach (function(value) {
+  text += value;
+})  
 console.log(a);
