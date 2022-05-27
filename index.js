@@ -14,6 +14,7 @@ fruits.reverse();
 document.getElementById("demo2").innerHTML = fruits;
 
 */
+
 // const myGirls = ["Cecilie", "Lone"];
 // const myBoys = ["Emil", "Tobias", "Linus"];
 
@@ -108,6 +109,7 @@ document.getElementById("demo2").innerHTML = fruits;
 // }
 // console.log(sum);
 
+
 // const numbers = [45, 4, 9, 16, 25];
 // let sum = numbers.reduceRight(myFunction);
 
@@ -116,15 +118,14 @@ document.getElementById("demo2").innerHTML = fruits;
 // }
 // console.log(sum)
 
+
 // function getRndInteger(min, max) {
 //   return Math.floor(Math.random() * (max - min) ) + min;
 // }
 // console.log(getRndInteger(100, 2));
 
 
-
 // age = Number(age);
-
 // if (isNaN(age)) {
 //   voteable = "Input is not a number";
 //  } else {
@@ -134,14 +135,25 @@ document.getElementById("demo2").innerHTML = fruits;
 // console.log(first);
 
 
-switch (new Date().getDay()) {
-  default:
-    text = "Looking forward to the Weekend";
-    break;
-  case 6:
-    text = "Today is Saturday";
-    break;
-  case 0:
-    text = "Today is Sunday";
-}
+// switch (new Date().getDay()) {
+//   default:
+//     text = "Looking forward to the Weekend";
+//     break;
+//   case 6:
+//     text = "Today is Saturday";
+//     break;
+//   case 0:
+//     text = "Today is Sunday";
+// }
+
+
+// let text = "Visit W3Schools";
+// let n = text.search(/w3schools/i);
+// console.log('hey', n);
+
+let text = "Visit Microsoft!";
+// let result = text.replace("Microsoft", "W3Schools");
+let result = text.replace(/microsoft/i, "W3Schools");
+console.log(result);
+
 
