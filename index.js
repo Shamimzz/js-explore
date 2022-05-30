@@ -151,9 +151,25 @@ document.getElementById("demo2").innerHTML = fruits;
 // let n = text.search(/w3schools/i);
 // console.log('hey', n);
 
-let text = "Visit Microsoft!";
+// let text = "Visit Microsoft!";
 // let result = text.replace("Microsoft", "W3Schools");
-let result = text.replace(/microsoft/i, "W3Schools");
-console.log(result);
+// let result = text.replace(/microsoft/i, "W3Schools");
+// console.log(result);
 
 
+class Car {
+    constructor(name, year) {
+      this.name = name;
+      this.year = year;
+    }
+    age(x) {
+      return x - this.year;
+    }
+  }
+  
+  let date = new Date();
+  let year = date.getFullYear();
+
+let myCar = new Car("Ford", 2014);
+document.getElementById("demo").innerHTML=
+"My car is " + myCar.age(year) + " years old.";
