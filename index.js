@@ -157,19 +157,32 @@ document.getElementById("demo2").innerHTML = fruits;
 // console.log(result);
 
 
-class Car {
-    constructor(name, year) {
-      this.name = name;
-      this.year = year;
-    }
-    age(x) {
-      return x - this.year;
-    }
-  }
+// class Car {
+//     constructor(name, year) {
+//       this.name = name;
+//       this.year = year;
+//     }
+//     age(x) {
+//       return x - this.year;
+//     }
+//   }
   
-  let date = new Date();
-  let year = date.getFullYear();
+//   let date = new Date();
+//   let year = date.getFullYear();
 
-let myCar = new Car("Ford", 2014);
-document.getElementById("demo").innerHTML=
-"My car is " + myCar.age(year) + " years old.";
+// let myCar = new Car("Ford", 2014);
+// document.getElementById("demo").innerHTML=
+// "My car is " + myCar.age(year) + " years old.";
+
+
+
+const person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
+    }
+  };
+
+  
